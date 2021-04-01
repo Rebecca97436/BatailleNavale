@@ -58,7 +58,7 @@ public class Sauvegarde {
     
     public static void main(String[] args){
         Computer c = new Computer(new Keyboard(), new Screen());
-        File saveFile = new File("saveFile"); // creer un fichiet txt saveFile et mettre l'adresse entre paranthese
+        File saveFile = new File("saveFile"); 
         saveComputer(c,saveFile);
         c = loadComputer(saveFile);
     }
