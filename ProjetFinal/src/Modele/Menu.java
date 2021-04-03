@@ -6,6 +6,7 @@
 package Modele;
 import Vue.*;
 import Controleur.*;
+import java.io.File;
 import java.util.Scanner;
 
 /**
