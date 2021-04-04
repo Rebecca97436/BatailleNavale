@@ -47,15 +47,15 @@ if (valeur == boat.Mer )
     //Modifie la case 
 tr.setCases(tr,c.lig,c.col," ");
 //Affiche que le que le tir est dans l'eau 
-System.out.println("tir dans l’eau!"); }
+System.out.println("Tir dans l’eau!"); }
 
 //Si la case contient un cuirasse 
 else if (valeur == boat.Cuirasse) 
 {
     //Modifie la case 
 tr.setCases(tr,c.lig,c.col,"$"); 
-//Affiche que le cuirasse est touche 
-System.out.println("... Cuirasse touché...");
+//Affiche que le cuirasse est touché 
+System.out.println("... Cuirassé touché...");
 rs = 1; 
 }
 
@@ -64,7 +64,7 @@ else if(valeur == boat.Croiseur)
 {
     //Modifie la case 
     tr.setCases(tr, c.lig, c.col, "$");
-    //Affiche que le croiseur est touce 
+    //Affiche que le croiseur est touché 
     System.out.println("... Croiseur touché...");
     rs=1;
 }
@@ -74,7 +74,7 @@ else if(valeur == boat.Destroyeur)
 {
     //Modifie la case 
     tr.setCases(tr, c.lig, c.col, "$");
-    //Affiche que le destroyeur est touche 
+    //Affiche que le destroyeur est touché 
     System.out.println("...Destroyeur touché...");
     rs=1;
 }
