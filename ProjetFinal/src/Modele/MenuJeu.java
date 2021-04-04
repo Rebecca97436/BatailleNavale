@@ -22,7 +22,7 @@ public class MenuJeu {
      Scanner in = new Scanner(System.in);
     int choix1=0;
     do{
-    System.out.println("1) Faire un tir \n2) deplacer un bateau\n3) quitter\n4) Passer son tour");
+    System.out.println("1) Faire un tir \n2) Déplacer un bateau\n3) Quitter\n4) Passer son tour");
 System.out.print("Choix1: ");
     choix1 = in.nextInt();
 
@@ -54,7 +54,7 @@ switch (choix1)
 
     case 2:
     System.out.println ( "Vous avez choisi l'option 2" );
-    System.out.println ("Deplacer votre bateau.");
+    System.out.println ("Déplacer votre bateau.");
     
     
         //Sauvegarde sauve = new Sauvegarde();
@@ -73,7 +73,7 @@ switch (choix1)
     break;
 
     default:
-    System.out.println ( "choix non reconnu" );
+    System.out.println ( "Choix non reconnu" );
         System.out.println("Veuillez respecter le menu!");
 }
 
