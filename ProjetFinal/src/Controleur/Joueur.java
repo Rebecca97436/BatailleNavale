@@ -75,7 +75,7 @@ else if(valeur == boat.Destroyeur)
     //Modifie la case 
     tr.setCases(tr, c.lig, c.col, "$");
     //Affiche que le destroyeur est touché 
-    System.out.println("...Destroyeur touché...");
+    System.out.println("...Destroyer touché...");
     rs=1;
 }
 
