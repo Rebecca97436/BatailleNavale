@@ -60,8 +60,8 @@ else if (valeur == "*")
 {
     //Modifie la case 
 tr.setCases(tr,c.lig,c.col,"$"); 
-//Affiche que le cuirasse est touche 
-System.out.println("... Cuirasse touché...");
+//Affiche que le cuirasse est touché 
+System.out.println("... Cuirassé touché...");
 rs = 1; 
 }
 
@@ -70,7 +70,7 @@ else if(valeur == "O")
 {
     //Modifie la case 
     tr.setCases(tr, c.lig, c.col, "$");
-    //Affiche que le croiseur est touche 
+    //Affiche que le croiseur est touché 
     System.out.println("... Croiseur touché...");
     rs=1;
 }
@@ -80,7 +80,7 @@ else if(valeur == "+")
 {
     //Modifie la case 
     tr.setCases(tr, c.lig, c.col, "$");
-    //Affiche que le sousMarin est touche 
+    //Affiche que le sousMarin est touché 
     System.out.println("...Destroyer touché...");
     rs=1;
    
@@ -97,7 +97,7 @@ else if(valeur=="s")
 {
     //Modifie la case
     tr.setCases(tr, c.lig, c.col, "$");
-    //Affiche que le sous Marin est touche-coulé 
+    //Affiche que le sous Marin est touché-coulé 
     System.out.println("...Sous-Marin coulé...");
     rs=1;
     
