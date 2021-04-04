@@ -124,7 +124,7 @@ switch (choix1)
          System.out.println();
          
          //L'IA qui tire 
-         ncoules +=Computer.tirerIA(tr2,v);
+         ncoules2 +=Computer.tirerIA(tr2,v);
          System.out.println();
          //Affichage des terrain 
          tr2.afficheTerrain();
@@ -202,10 +202,11 @@ switch (choix1)
     System.out.println ( "choix non reconnu" );
         System.out.println("Veuillez respecter le menu!");
 }
-       }while (ncoules < 30 || ncoules2 < 30);
+       }while (ncoules < 30);
 
 
         System.out.println("...TOUS LES BATEAUX ONT COULE!!!...");
+        System.out.println("... VICTOIRE !!!...");
    
     
 }
