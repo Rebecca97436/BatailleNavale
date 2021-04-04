@@ -53,7 +53,7 @@ if (valeur == boat.Mer )
  //Modifie la Case    
 tr.setCases(tr,c.lig,c.col," ");
 //Affiche que le tir est dans l'eau 
-System.out.println("tir dans l’eau!"); }
+System.out.println("Tir dans l’eau!"); }
 
 //Si la case contient un cuirasse
 else if (valeur == "*") 
@@ -61,7 +61,7 @@ else if (valeur == "*")
     //Modifie la case 
 tr.setCases(tr,c.lig,c.col,"$"); 
 //Affiche que le cuirasse est touche 
-System.out.println("... Cuirasse touche...");
+System.out.println("... Cuirasse touché...");
 rs = 1; 
 }
 
@@ -71,7 +71,7 @@ else if(valeur == "O")
     //Modifie la case 
     tr.setCases(tr, c.lig, c.col, "$");
     //Affiche que le croiseur est touche 
-    System.out.println("... Croiseur touche...");
+    System.out.println("... Croiseur touché...");
     rs=1;
 }
 
@@ -81,7 +81,7 @@ else if(valeur == "+")
     //Modifie la case 
     tr.setCases(tr, c.lig, c.col, "$");
     //Affiche que le sousMarin est touche 
-    System.out.println("...Destroyeur touche...");
+    System.out.println("...Destroyer touché...");
     rs=1;
    
         
@@ -97,8 +97,8 @@ else if(valeur=="s")
 {
     //Modifie la case
     tr.setCases(tr, c.lig, c.col, "$");
-    //Affiche que le sous Marin est touche 
-    System.out.println("...SMarin touche...");
+    //Affiche que le sous Marin est touche-coulé 
+    System.out.println("...Sous-Marin coulé...");
     rs=1;
     
 }
@@ -107,7 +107,7 @@ else if(valeur=="s")
 else
 {
     //Affiche le message d'erreur 
-System.out.println("OUPS... ne devrait jamais arrive!");
+System.out.println("OUPS... ne devrait jamais arriver!");
 }
 return rs; 
 }
