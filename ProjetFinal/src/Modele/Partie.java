@@ -91,7 +91,7 @@ File saveFile;
     int ncoules2 = 0;
 do
        {
-    System.out.println("1) Faire un tir \n2) deplacer un bateau\n3) Sauvegarder\n4) Passer son tour");
+    System.out.println("1) Faire un tir \n2) Déplacer un bateau\n3) Sauvegarder\n4) Passer son tour");
 System.out.print("Choix1: ");
     choix1 = in.nextInt();
     
@@ -120,7 +120,7 @@ switch (choix1)
          ++ntirs;  
          System.out.println();
          System.out.println("____________________________________");
-         System.out.println(" c'est au tour du joueur 2");
+         System.out.println(" C'est au tour du joueur 2");
          System.out.println();
          
          //L'IA qui tire 
@@ -143,7 +143,7 @@ switch (choix1)
         System.out.println();
     System.out.println ( "Vous avez choisi l'option 2" );
         System.out.println();
-    System.out.println ("Deplacer votre bateau.");
+    System.out.println ("Déplacer votre bateau.");
     //Demande case
         System.out.println();
     bt.demanderCaseDeplacement(tr2, v);
@@ -199,7 +199,7 @@ switch (choix1)
     break;
 
     default:
-    System.out.println ( "choix non reconnu" );
+    System.out.println ( "Choix non reconnu" );
         System.out.println("Veuillez respecter le menu!");
 }
        }while (ncoules < 30);
