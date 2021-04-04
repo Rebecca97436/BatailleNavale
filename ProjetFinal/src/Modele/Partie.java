@@ -88,6 +88,7 @@ File saveFile;
     
         
     int ncoules = 0;
+    int ncoules2 = 0;
 do
        {
     System.out.println("1) Faire un tir \n2) deplacer un bateau\n3) Sauvegarder\n4) Passer son tour");
@@ -201,7 +202,7 @@ switch (choix1)
     System.out.println ( "choix non reconnu" );
         System.out.println("Veuillez respecter le menu!");
 }
-       }while (ncoules < 30) ;
+       }while (ncoules < 30 || ncoules2 < 30);
 
 
         System.out.println("...TOUS LES BATEAUX ONT COULE!!!...");
