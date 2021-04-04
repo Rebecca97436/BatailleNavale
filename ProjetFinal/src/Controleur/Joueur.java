@@ -55,7 +55,7 @@ else if (valeur == boat.Cuirasse)
     //Modifie la case 
 tr.setCases(tr,c.lig,c.col,"$"); 
 //Affiche que le cuirasse est touche 
-System.out.println("... Cuirasse touche...");
+System.out.println("... Cuirasse touché...");
 rs = 1; 
 }
 
@@ -65,7 +65,7 @@ else if(valeur == boat.Croiseur)
     //Modifie la case 
     tr.setCases(tr, c.lig, c.col, "$");
     //Affiche que le croiseur est touce 
-    System.out.println("... Croiseur touche...");
+    System.out.println("... Croiseur touché...");
     rs=1;
 }
 
@@ -75,7 +75,7 @@ else if(valeur == boat.Destroyeur)
     //Modifie la case 
     tr.setCases(tr, c.lig, c.col, "$");
     //Affiche que le destroyeur est touche 
-    System.out.println("...Destroyeur touche...");
+    System.out.println("...Destroyeur touché...");
     rs=1;
 }
 
@@ -85,7 +85,7 @@ else if(valeur==boat.sousMarin)
     //Modifie la case 
     tr.setCases(tr, c.lig, c.col, "$");
     //Affiche que le sous Marin est touche 
-    System.out.println("... un SMarin a coule ...");
+    System.out.println("... un Sous-Marin a coulé ...");
     rs=1;
 }
 
@@ -93,7 +93,7 @@ else if(valeur==boat.sousMarin)
 else
 {
     //Message d'erreur 
-System.out.println("OUPS... ne devrait jamais arrive!");
+System.out.println("OUPS... ne devrait jamais arriver!");
 }
 return rs; 
 }
