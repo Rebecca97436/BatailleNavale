@@ -66,7 +66,7 @@ switch (choix)
     break;
 
     default:
-    System.out.println ( "choix non reconnu" );
+    System.out.println ( "Choix non reconnu" );
         System.out.println("Veuillez respecter le menu!");
 }
 
